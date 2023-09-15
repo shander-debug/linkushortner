@@ -1,0 +1,14 @@
+<html>
+    <head>
+        <title> enter url and /</title>
+    </head>
+    <body>
+      
+<form action="{{ url_for("details")}}" method="post">
+    <label for="name">enter / part:</label>
+    <input type="text" id="urlname" name="urlname" placeholder="url's name">
+    <label for="url">url</label>
+    <input type="text" id="url" name="url" placeholder="url">
+    <button type="submit">enter</button>
+    </body>
+</html>
