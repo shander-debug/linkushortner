@@ -1,0 +1,9 @@
+{
+    "version": 2,
+    "builds": [
+      { "src": "meow.py", "use": "@vercel/python" }
+    ],
+    "routes": [
+      { "src": "/(.*)", "dest": "/meow.py" }
+    ]
+  }
